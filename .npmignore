@@ -1,2 +1,4 @@
 examples/
 src/
+.idea/
+rollup.config.js
