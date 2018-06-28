@@ -11,7 +11,7 @@ export default {
         subscribers.splice(subscribers.indexOf(handle), 1);
     },
 
-    //pass the data
+    // pass the data
     publish (eventName, data) {
         subscribers.forEach((subscriber) => {
             if (subscriber.eventName == eventName) {
